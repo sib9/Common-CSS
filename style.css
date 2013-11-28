@@ -56,6 +56,8 @@ ul, ol {
     line-height: 1.5em;
 }
 
+ul li { list-style-type: square; }
+
 img {
     border: 0;
     vertical-align: middle;
