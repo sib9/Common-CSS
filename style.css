@@ -1,22 +1,26 @@
+html>body { font-size:14px;  }
+
 html {
 	font-size: 100%;
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	background-color: #4a525a;
+	background-color: whitesmoke;
 }
 
 body{
 	color:#444;
-	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman',
-	"Hiragino Sans GB", "STXihei", "微软雅黑", serif;
-	font-family: 'Trebuchet MS',Trebuchet,'Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
-	font-size: 12px;
+	font-family: Verdana, "Segoe UI", "Droid Sans Mono", "DejaVu Sans Mono", monaco, Sans-Serif;
 	line-height: 1.5em;
 	background: #fdfdfd;
-	width: 45em;
-	margin: 10px auto;
+	width: 50em;
+	margin: 1.5em auto 3em auto;
 	padding: 1em;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 8px #aaa;
+	-webkit-box-shadow: 2px 2px 8px #aaa;
+	-moz-box-shadow: 2px 2px 8px #aaa;
 }
 
 a{ color: #0645ad; text-decoration:none; }
@@ -81,6 +85,10 @@ pre , code {
 	border-radius:3px;
 	background-color: #F8F8F8;
 	border: 1px solid #CCC; 
+	overflow: auto;
+	box-shadow: 1px 1px 6px #ccc;
+	-webkit-box-shadow: 1px 1px 6px #ccc;
+	-moz-box-shadow: 1px 1px 6px #ccc;
 }
 
 code { color: #d14; margin: 0 2px;  }
