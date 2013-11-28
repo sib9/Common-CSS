@@ -6,4 +6,4 @@ Markdown 的实现引擎 : [Python-Markdown](https://github.com/waylan/Python-Ma
 
 代码高亮使用参数 `fenced_code` 和 `'codehilite(guess_lang=False)'`
 
-Syntax 样式表通过 Pygments 获取.
+Syntax 样式表通过 [Pygments](http://pygments.org/) 获取.
