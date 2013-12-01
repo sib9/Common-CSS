@@ -109,6 +109,7 @@ pre code {
     border: 0px !important;
     padding: 0;
     color: #000;
+    background-color: #f8f8f8;
 }
 
 /* 自定义id和class */
