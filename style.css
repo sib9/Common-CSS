@@ -12,10 +12,10 @@ html {
 /* Platform font mapping:
    ubuntu: ubuntu > "Droid Sans Mono" > "DejaVu Sans Mono"
    MacOS:
-   Windows7:
+   Windows7: "Segoe UI" > Verdana
  */
 body {
-    font-family: "ubuntu", Verdana, "Droid Sans Mono", "DejaVu Sans Mono", "NSimSun", Sans-Serif;
+    font-family: "Segoe UI", "ubuntu", Verdana, "Droid Sans Mono", "DejaVu Sans Mono", "NSimSun", Sans-Serif;
     line-height: 1.5em;
     background-color: whitesmoke;
 }
