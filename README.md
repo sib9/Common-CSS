@@ -10,4 +10,4 @@
 
 + [sib9.us](http://sib9.us/)
 + [cpp1x.org](http://cpp1x.org/)
-+ [perfect-is-shit.com/](http://www.perfect-is-shit.com/)
++ [perfect-is-shit.com](http://www.perfect-is-shit.com/)
