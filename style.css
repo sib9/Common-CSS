@@ -9,13 +9,8 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-/* Platform font mapping:
-   ubuntu: ubuntu > "Droid Sans Mono" > "DejaVu Sans Mono"
-   MacOS:
-   Windows7: "Segoe UI" > Verdana
- */
 body {
-    font-family: "Segoe UI", "ubuntu", Verdana, "Droid Sans Mono", "DejaVu Sans Mono", "NSimSun", Sans-Serif;
+    font-family: Verdana, Sans-Serif, Arial, "Droid Sans Mono", "DejaVu Sans Mono", "宋体";
     line-height: 1.5em;
     background-color: whitesmoke;
 }
@@ -81,7 +76,7 @@ td { vertical-align: top; }
 
 /* 针对 pre 和 code 的优化 */
 pre, code { 
-    font-family: "DejaVu Sans Mono", Consolas, "Courier New", monospace, serif;
+    font-family: Consolas, "Courier New", monospace, serif;
     font-size: 12px;
     border-radius: 3px;
     -moz-border-radius: 3px;
