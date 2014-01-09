@@ -23,7 +23,6 @@ a:active { color: #faa700; }
 p { 
     margin: 0 0 1.5em 0; 
     text-align: justify; 
-    white-space: pre;
     word-wrap: break-word;
 }
 
