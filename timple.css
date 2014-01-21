@@ -1,3 +1,15 @@
+/*  
+Theme Name: Timple
+Theme URI: https://github.com/sib9/Common-CSS
+Author: Tanky Woo<me@tankywoo.com>
+Author URI: http://www.wutianqi.com/
+Description: A simple theme for code blog.
+Version: 0.1
+License: The MIT License (MIT)
+Tags: simple, single-columns, code, codehighlight, white, markdown
+*/
+
+
 /* 全局配置 */
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size: 14px; }
@@ -127,11 +139,8 @@ pre code {
 /* Hacker for codehilite */
 table.codehilitetable {
     border-collapse: separate;
-    border: 1px solid silver;
+    border: 1px solid #eee;
     margin: 14px 0;
-    box-shadow: 1px 1px 6px #ccc;
-    -webkit-box-shadow: 1px 1px 6px #ccc;
-    -moz-box-shadow: 1px 1px 6px #ccc;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
