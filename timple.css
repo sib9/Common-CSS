@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: Verdana, Sans-Serif, Arial, "Droid Sans Mono", "DejaVu Sans Mono", "宋体";
+    font-family: "Helvetica Neue", "Segoe UI", Arial, Sans-Serif;
     line-height: 1.5em;
     background-color: whitesmoke;
 }
@@ -93,7 +93,7 @@ code {
 
 pre { 
     background-color: #f8f8f8;
-    border: 1px solid silver;
+    border: 1px solid #eee;
     padding: 8px 12px;
     white-space: pre;
     white-space: -moz-pre-wrap; /* Firefox */
@@ -101,9 +101,6 @@ pre {
     white-space: -o-pre-wrap;   /* newer Opera */
     white-space: pre-wrap;      /* Chrome; W3C standard */
     word-wrap: break-word;      /* IE */
-    box-shadow: 1px 1px 6px #ccc;
-    -webkit-box-shadow: 1px 1px 6px #ccc;
-    -moz-box-shadow: 1px 1px 6px #ccc;
 }
 
 pre code {
