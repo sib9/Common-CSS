@@ -9,8 +9,7 @@ License: The MIT License (MIT)
 Tags: simple, single-columns, code, codehighlight, white, markdown
 */
 
-
-/* 全局配置 */
+/* Global Configuration */
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size: 14px; }
 
@@ -86,7 +85,7 @@ table {
 
 td { vertical-align: top; }
 
-/* 针对 pre 和 code 的优化 */
+/* Optimization for pre and code tag */
 pre, code { 
     font-family: Consolas, "Courier New", monospace, serif;
     font-size: 12px;
@@ -122,7 +121,7 @@ pre code {
     background-color: #f8f8f8;
 }
 
-/* 自定义id和class */
+/* Custom Configuration */
 #container {
     background: white;
     width: 50em;
@@ -135,7 +134,7 @@ pre code {
     -moz-box-shadow: 2px 2px 8px #aaa;
 }
 
-/* 各种 Hackers */
+/* Hackers */
 /* Hacker for codehilite */
 table.codehilitetable {
     border-collapse: separate;
