@@ -1,3 +1,4 @@
+
 html>body { font-size: 14px; }
 
 html {
@@ -11,7 +12,7 @@ html {
  * <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
  */
 body {
-    font-family: "Open Sans", "Segoe UI", "ubuntu", Verdana, "Droid Sans Mono", "DejaVu Sans Mono", "NSimSun", Sans-Serif;
+    font-family: "Open Sans", Sans-Serif;
     line-height: 1.5em;
 }
 
