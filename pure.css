@@ -11,7 +11,7 @@ html {
  * <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
  */
 body {
-    font-family: "Open Sans", "Segoe UI", "ubuntu", Verdana, "Droid Sans Mono", "DejaVu Sans Mono", "NSimSun", Sans-Serif;
+    font-family: "Open Sans", Sans-Serif;
     line-height: 1.5em;
 }
 
@@ -20,35 +20,38 @@ a:visited { color: #0b0080; }
 a:hover { color: #06e; text-decoration: underline; }
 a:active { color: #faa700; }
 
-p { margin: 0 0 1.5em 0; text-align: justify; }
+p { 
+    margin: 0 0 1.5em 0;
+    text-align: justify;
+    word-wrap: break-word;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    color: #111;
     line-height: 1em;
     clear: left;
 }
 
-h1 { font-size: 1.8em; }
-
-h2 {
-    font-size: 1.6em;
-    padding-bottom: 5px;
-    margin:0.8em 0 0.8em 0;
+h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
-
+h2 {
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 1.0em 0 1.0em 0;
+    border-left: 5px solid #dae0e6;
+}
 h3 {
-    font-size: 1.4em;
+    font-size: 16px;
     margin: 0.8em 0 0.8em 0;
 }
-
 h4 {
     font-size: 1.2em;
     margin: 0.8em 0 0.8em 0;
 }
-
 h5 { font-size: 1.0em; }
-
 h6 { font-size: 0.8em; }
 
 blockquote {
@@ -59,7 +62,7 @@ blockquote {
 }
 
 hr {
-    border: 1px solid silver;
+    border: 1px dashed silver;
     margin: 1em 0;
     padding: 0;
 }
@@ -67,13 +70,12 @@ hr {
 b, strong { font-weight: bold; }
 
 ul, ol {
-    margin: 1.5em 0;
+    margin: 1.5em 0.8em;
     padding-left: 1.5em;
     line-height: 1.5em;
 }
 
 ul li { list-style-type: square; }
-
 
 table {
     border-collapse: collapse;
@@ -84,19 +86,24 @@ td { vertical-align: top; }
 
 pre, code {
     font-family: "DejaVu Sans Mono", Consolas, monospace, serif;
-    border-radius: 3px;
+    /*border-radius: 2px;*/
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     overflow: auto;
 }
 
+code {
+    padding: 1px 2px 1px 1px;
+    border: 1px solid #EEE;
+    font-size: 80%;
+}
+
 pre:hover {
-    border-right: none;
     overflow: auto;
 }
 
 pre {
-    margin: 1em 0 1.5em 0;
+    margin: 0.5em 0 1.5em 0;
     padding: 0.5em 1em;
     white-space: pre;
     white-space: -moz-pre-wrap; /* Firefox */
@@ -104,13 +111,9 @@ pre {
     white-space: -o-pre-wrap;   /* newer Opera */
     white-space: pre-wrap;      /* Chrome; W3C standard */
     word-wrap: break-word;      /* IE */
-    box-shadow: 1px 1px 6px #ccc;
-    -webkit-box-shadow: 1px 1px 6px #ccc;
-    -moz-box-shadow: 1px 1px 6px #ccc;
-    font-size: 0.75em;
-    line-height: 1.5em;
-    background: #fffff0;
-    border: 1px solid #ddc;
+    line-height: 1.2em;
+    /*background: #fbedbb;*/
+    border: 1px dotted gray;
 }
 pre code {
     border: 0px !important;
